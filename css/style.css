@@ -1,0 +1,298 @@
+
+/* =============================== General styles ===============================*/
+html, body{
+	position: relative;
+	font-size: 16px;
+}
+.container-body-pages{
+	background-attachment: fixed;
+	background-color: #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 100%;
+	margin: 0;
+	padding:0;
+    width: 100%;
+}
+.principal-container-page{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.content-container-page{
+	position: relative;
+	transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	transition: .3s ease all;
+	-moz-transition: .3s ease all;
+	-ms-transition: .3s ease all;
+	-o-transition: .3s ease all;
+	-webkit-transition: .3s ease all;
+	width: 100%;
+}
+.navigation-menu-container{
+	background-color: rgb(255,255,255);
+    border-right: 1px solid rgba(0,0,0,.1);
+	height: 100%;
+	left: -320px;
+	position: fixed;
+	top: 0;
+	transition: .3s ease all;
+	width: 320px;
+}
+.header-navigation{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Denk One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+}
+.navigation-menu-container > ul > li > a{
+    color: #3b3b3b;
+    display: block;
+    font-size: 18px;
+    padding: 12px 0;
+    text-decoration: none;
+    width: 100%;
+}
+.navigation-menu-container > ul > li > a:hover{
+    background-color: rgba(0,0,0,.09);
+}
+.show-navBar {
+    transform: translateX(320px);
+    -moz-transform: translateX(320px);
+    -ms-transform: translateX(320px);
+    -o-transform: translateX(320px);
+    -webkit-transform: translateX(320px);
+}
+.bg-page{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	z-index: 99;
+}
+.NavBar{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    font-size: 20px;
+    padding-right: 10px;
+    font-family: 'Denk One', sans-serif;
+}
+.btn-mobile-menu {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 15px;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    cursor: pointer;
+}
+.btn-mobile-menu:hover{
+    color: #fff;
+}
+/*  others styles */
+.center-box-content{
+	margin-left: auto;
+	margin-right: auto;
+}
+section{
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 90px;
+	padding-top: 90px;
+}
+footer{
+	background-color: rgba(255,255,255,.97);
+	border-top: 2px solid rgba(0,0,0,.2);
+	color: #000;
+	width: 100%;
+}
+.all-titles-pages{
+	font-family: 'Denk One', sans-serif;
+}
+.all-pages-content{
+	background-color: rgba(255,255,255,.9);
+	color: #000;
+	width: 100%;
+}
+hr, .hrcolor {
+    background-color: rgba(0,0,0,.1);
+    border: 0;
+    color: #666;
+    height: 1px;
+}
+.button-up{
+    background-color: #000;
+    border-radius: 3px;
+    bottom: 1%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    position: fixed;
+    right: 1%;
+    text-align: center;
+    z-index: 100;
+}
+/* footer styles */
+.list-social{
+	display: inline-block;
+	padding: 15px 17px;
+}
+.list-social > p > a{
+	color: #000;
+    font-size: 50px;
+	text-align: center;
+    transition: .5s color ease-in-out;
+    -ms-transition: .5s color ease-in-out;
+    -moz-transition: .5s color ease-in-out;
+    -o-transition: .5s color ease-in-out;
+    -webkit-transition: .5s color ease-in-out;
+}
+.list-social > p > a:hover{
+	color: #AA1A15 !important;
+}
+/* =============================== Index styles ===============================*/
+.container-index{
+	background-image: url(../assets/img/font-page-1.jpg);
+}
+.jumbotron{
+	background-color: rgba(0,0,0,.6);
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 200px;
+	padding-top: 140px;
+}
+/* =============================== news styles ===============================*/
+.container-news{
+	background-image: url(../assets/img/font-page-2.jpg);
+}
+/* =============================== galery styles ===============================*/
+.container-galery{
+	background-image: url(../assets/img/font-page-3.jpg);
+}
+.img-container-galery{
+	background-color: transparent;
+	padding: 15px;
+}
+/* =============================== store styles ===============================*/
+.container-store{
+	background-image: url(../assets/img/font-page-2.jpg);
+}
+.container-menu-store {
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	display: table;
+    margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.contenidos-menu-store {
+	display: table-row;
+	padding: 0;
+	width: 100%;
+}
+.cell-menu-store {
+	color: #000;
+	display: table-cell;
+	padding: 15px 0;
+	text-align: center;
+	width: 14%;
+}
+.cell-menu-store-active{
+    background-color: rgb(0,0,0);
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+}
+.cell-menu-store:focus{
+    color: #fff;
+    text-decoration: none;
+}
+.cell-menu-store:hover {
+	background-color: rgba(0,0,0,.8);
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+    text-decoration: none;
+}
+.a-list-menu{
+	color: #000;
+	display: list-item;
+    font: 20px 'Denk One', sans-serif;
+    padding: 7px 0;
+    text-align: center;
+}
+.a-list-menu:hover{
+	background-color: rgba(0,0,0,.9);
+	color: #fff;
+    text-decoration: none;
+}
+.all-thumbnail-store {
+	padding: 15px;
+}
+/* =============================== contact styles ===============================*/
+.container-contact{
+	background-image: url(../assets/img/font-page-5.jpg);
+}
+.input-form-contact{
+	background-color: rgba(236,240,241,.3);
+	color: #000;
+	font-style: italic;
+}
+.contac-info{
+	background-color: rgba(0,0,0,.1);
+	border-radius: 7px;
+	padding: 30px 25px;
+	width: 100%;
+}
+
+/* ======================= MediaQueries bootstrap ==============================*/
+/* col-xs */
+@media (max-width: 767px) {
+	.jumbotron{
+        background-color: rgba(255,255,255,.9);
+        color: #333;
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+    .jumbotron > p{
+		font-size: 16px;
+	}
+    .list-social > p > a{
+        font-size: 35px;
+    }
+    .all-titles-pages{
+        font-size: 25px;
+    }
+}
+/* col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.jumbotron{
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+    .jumbotron > p{
+		font-size: 20px;
+	}
+}
+/* col-md */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*Estilos css aquí*/
+}
+/* col-lg */
+@media (min-width: 1200px) {  
+    /*Estilos css aquí*/
+}
